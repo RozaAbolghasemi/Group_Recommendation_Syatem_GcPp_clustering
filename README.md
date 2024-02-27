@@ -40,5 +40,5 @@ After implementing the clustering method, you can view the subsequent plot, illu
 </p>
 Additionally, upon executing the code related to the 'group recommendation system,' a plot similar to the following will be displayed:
 <p align="center">
-<img style="width: 80%;" src="https://github.com/RozaAbolghasemi/GRS_GcPp/blob/main/Images/GRS_evaluation.png">
+<img style="width: 40%;" src="https://github.com/RozaAbolghasemi/GRS_GcPp/blob/main/Images/GRS_evaluation.png">
 </p>
