@@ -42,3 +42,16 @@ Additionally, upon executing the code related to the 'group recommendation syste
 <p align="center">
 <img style="width: 40%;" src="https://github.com/RozaAbolghasemi/GRS_GcPp/blob/main/Images/GRS_evaluation.png">
 </p>
+
+----------------------------------------------------------------------
+
+**License**
+
+[MIT License](https://github.com/RozaAbolghasemi/GRS_GcPp/blob/main/LICENSE)
+
+
+
+
+
+
+
