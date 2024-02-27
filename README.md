@@ -4,8 +4,8 @@ A Jupyter notebook for a project centered around 'Group Recommendation Systems (
 "A Graph Neural Approach for Group Recommendation System based on Pairwise Preferences (Information Fusion 2024)"
 
 <div style="display: flex;">
-    <img src="https://github.com/RozaAbolghasemi/GRS_GcPp/blob/main/Similarity_prediction.png" alt="Description of the First Image" style="width: 46%;">
-    <img src="https://github.com/RozaAbolghasemi/GRS_GcPp/blob/main/Clustering_GcPp.png" alt="Description of the Second Image" style="width: 48%;">
+    <img src="https://github.com/RozaAbolghasemi/GRS_GcPp/blob/main/Images/Similarity_prediction.png" alt="Description of the First Image" style="width: 46%;">
+    <img src="https://github.com/RozaAbolghasemi/GRS_GcPp/blob/main/Images/Clustering_GcPp.png" alt="Description of the Second Image" style="width: 48%;">
 </div>
 
 ### Abstract
@@ -33,3 +33,7 @@ scikit-learn      1.1.2
 ### Dataset
 The [dataset comprises car preferences](http://users.cecs.anu.edu.au/~u4940058/CarPreferences.html) that were provided by Abbasnejad et al. in 2013. The dataset was gathered from 60 users residing in the United States, who participated in the data collection process through [Amazon's Mechanical Turk](http://mturk.com). The dataset focuses on ten distinct cars, treated as individual items for comparison purposes. Each user in the dataset provided responses for all 45 possible pairs of items, resulting in a total of 90 observations for each expert. In addition to the pairwise preference scores, the dataset also includes two additional files containing users' attributes (education, age, gender, and region) and car attributes (body type, transmission, engine capacity, and fuel consumed). However, in our project, neither the users' attributes nor the cars' attributes were used during the training of the model.
 
+### Results (Evaluation)
+After implementing the clustering method, you can view the subsequent plot, illustrating the training and testing loss.
+
+Additionally, upon executing the code related to the 'group recommendation system,' a plot similar to the following will be displayed:
