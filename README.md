@@ -36,9 +36,9 @@ The [dataset comprises car preferences](http://users.cecs.anu.edu.au/~u4940058/C
 ### Results (Evaluation)
 After implementing the clustering method, you can view the subsequent plot, illustrating the training and testing loss.
 <p align="center">
-<img style="float: center;" src="https://github.com/RozaAbolghasemi/GRS_GcPp/blob/main/Images/GcPp_evaluation.png">
+<img style="width: 80%;" src="https://github.com/RozaAbolghasemi/GRS_GcPp/blob/main/Images/GcPp_evaluation.png">
 </p>
 Additionally, upon executing the code related to the 'group recommendation system,' a plot similar to the following will be displayed:
 <p align="center">
-<img style="float: center;" src="https://github.com/RozaAbolghasemi/GRS_GcPp/blob/main/Images/GRS_evaluation.png">
+<img style="width: 80%;" src="https://github.com/RozaAbolghasemi/GRS_GcPp/blob/main/Images/GRS_evaluation.png">
 </p>
