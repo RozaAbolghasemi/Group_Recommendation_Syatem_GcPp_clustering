@@ -8,7 +8,7 @@ A Jupyter notebook for a project centered around 'Group Recommendation Systems (
     <img src="https://github.com/RozaAbolghasemi/GRS_GcPp/blob/main/Images/Clustering_GcPp.png" alt="Description of the Second Image" style="width: 48%;">
 </div>
 
-### Abstract
+### Project Description
 
 Pairwise preference information, which involves users expressing their preferences by comparing items, plays a crucial role in decision-making and has recently found application in recommendation systems. In this project, we introduce GcPp, a clustering algorithm that leverages pairwise preference data to generate recommendations for user groups. Initially, we construct individual graphs for each user based on their pairwise preferences and utilize a graph convolutional network to predict similarities between all pairs of graphs. These predicted similarity scores form the foundation of our research. We then construct a new graph where users are nodes and the edges are weighted according to the predicted similarities. Finally, we perform clustering on the graph's nodes (users). By evaluating various metrics, we found that employing a similarity metric based on a convolutional neural network (SimGNN) with our proposed ground truth called Top-K yielded the highest accuracy. The proposed approach is specifically designed for group recommendation systems and holds significant potential for group decision-making problems. 
 
@@ -50,7 +50,22 @@ Additionally, upon executing the code related to the 'group recommendation syste
 [MIT License](https://github.com/RozaAbolghasemi/GRS_GcPp/blob/main/LICENSE)
 
 
+----------------------------------------------------------------------
 
+**Reference**
+
+If you use this code/paper, please cite it as below.
+```
+@article{abolghasemi2024graph,
+  title={A graph neural approach for group recommendation system based on pairwise preferences},
+  author={Abolghasemi, Roza and Viedma, Enrique Herrera and Engelstad, Paal and Djenouri, Youcef and Yazidi, Anis},
+  journal={Information Fusion},
+  pages={102343},
+  year={2024},
+  publisher={Elsevier}
+}
+}
+```
 
 
 
